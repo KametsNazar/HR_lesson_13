@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+
+
+body{
+	background-color: #FDDE7E;
+
+}
+
+.container{
+	display: flex;
+	width: 1200px;
+	height: 600px;
+	background-color: #fdde7e;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.box{
+	display: block;
+	background-color: #fff;
+	width: 360px;
+	height: 440px;
+	align-items: center;
+	text-align: center;
+	border-radius: 7px;
+	transition: all 0.4s;
+}
+.box:hover{
+  transform: scale(1.1);
+}
+
+h1{
+	color: #02995b;
+	font-size: 56px;
+}
+h2{
+	color: #333333;
+	font-size: 40px;
+}
+p{
+	color: #333;
+	font-size: 12px;
+	text-transform: lowercase;
+}
+
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
